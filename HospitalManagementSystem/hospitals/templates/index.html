@@ -1,0 +1,265 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+<head>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <style media="screen">
+    .heading{
+      text-align: center;
+    }
+    .heading h5{
+      font-weight: 700;
+    }
+
+    
+
+    .alert {
+      margin: 0px;
+    }
+
+    .footer_img{
+      width: 5%;
+    }
+   .footer{
+    background-color: aliceblue;
+    bottom: 0%;
+   }
+    .footer ul{
+       display: flex;
+       justify-content: space-around;
+    }
+    .site-footer
+{
+  background-image: linear-gradient(#022a37,#012733);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+    
+.front_image{
+  display: flex;
+  justify-content: space-around;
+}
+.front_image img{
+  width: 25%;
+  border-radius: 3px;
+}
+  </style>
+</head>
+<br>
+<br>
+
+
+  <div class="heading">
+
+    <br><br>
+    <h5 class="display-3 glow" style="color:white; font-family:serifl;">Hospital management system</h5>
+    <br><br><br><br>
+  </div>
+  <div class="front_image">
+    <img src="../static/images/home.jpg" alt="error loading">
+    <img src="../static/images/home2.jpg" alt="error loading">
+
+    <img src="../static/images/home3.jpg" alt="error loading">
+
+  </div>
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container" style="background-color: #33353d;">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Hospital.com <i>Treatment WANTS TO BE SIMPLE </i> A hospital is a health care institution providing patient treatment with specialized health science and auxiliary healthcare staff and medical equipment.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="https://www.centreforsight.net/blog/difference-between-optometrists-and-ophthalmologists/#:~:text=An%20eye%20doctor%20skilled%20in,differ%20from%20optometrists%20and%20opticians.">##########</a></li>
+              <li><a href="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ent-doctor">#########</a></li>
+              <li><a href="https://www.oncolifehospitals.com/blog/types-of-oncologists-and-their-specialties-in-oncology/#:~:text=Doctors%20who%20treat%20cancer%20patients,hence%2C%20requires%20a%20speciality%20team.">#########</a></li>
+              <li><a href="https://www.webmd.com/a-to-z-guides/what-is-surgeon#:~:text=A%20surgeon%20is%20a%20doctor,or%20treat%20disease%20or%20injury.">########</a></li>
+              <li><a href="https://www.mountsinai.org/health-library/injury/heart-attack-first-aid#:~:text=A%20heart%20attack%20is%20a,is%20having%20a%20heart%20attack.">#########</a></li>
+              <li><a href="https://medlineplus.gov/ency/article/001934.htm#:~:text=A%20nurse%20practitioner%20(NP)%20is,(Advanced%20Practice%20Registered%20Nurse).">########</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="about/">About Us</a></li>
+              <li><a href="contact">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Email address</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        
+         
+          
+        </div>
+      </div>
+</footer>
+{% endblock%}

@@ -1,0 +1,71 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<section id="about" style="background-image: linear-gradient(#06546e,#679789);">
+	
+		<div class="container mt-5" style="backgorund-color:rgb(206, 23, 23);">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="section-title">
+						<div class="section-subtitle" style="font-weight:bold; color:#fff;">About Us</div>
+						<h2 class="section-main-title" style=color:#008ff2>
+							All About <strong>Hospitals</strong>
+						</h2>
+					
+					</div>
+
+					<div class="about-item">
+						<p style="color:white; font-family:serif;">The word hospital originally meant "a place where people can stay". There have been hospitals for sick people since ancient times. They were often created and run by religious groups. In the early modern period, hospitals began to be funded by donations from rich people and by governments. Today, hospitals might get money from the government, from charging patients for treatments and check-ups, from patients' health insurance, from people giving to charity or a mixture of those things.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about-1.jpg' %}">
+				 </div>
+				</div>
+            </div>
+
+			<div class="row mt-5">
+				<div class="col-sm-4">
+				 <div class="about-boxx">
+				   <img src="{% static 'images/about1.jpg' %}">
+				 </div>
+				</div>
+				<div class="col-sm-6 offset-sm-2">
+				<div class="about-item mt-5">
+					<h4><span style="color:rgb(0, 0, 0);">All About</span> <span style="color:rgb(0, 0, 0)"><b>Doctor & Nourse</b></span></h4>
+						<p style="color:#fff; font-family:serif;">Doctors and Nurses may refer to a children's game of imaginative
+							role-playing where medical profession roles are adopted and acted out.
+						A nurse is a person who is trained to give care to people who are sick or injured.
+							Nurses work with doctors and other health care workers to make patients.</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row mt-5">
+				<div class="col-sm-6">
+				<div class="about-item mt-5">
+					<h4><span style="color:rgb(2, 46, 2)">All About</span> <span style="color:blue"><b>Sweeper</b></span></h4>
+						<p style="color:#fff; font-family: serif; font-weight:bold;">A Hospital cleaner a cleaning operative is a type of industrial or
+							domestic worker who cleans homes,commercial premises and also clean
+							the Hospital Plateform.A cleaner is someone who takes
+							away garbage and cleans surfaces. Cleaners sometimes repair things,
+							and maintain their equipment in good working.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about2.jpg' %}">
+				 </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+{% endblock%}
