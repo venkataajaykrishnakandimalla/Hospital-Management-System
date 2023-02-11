@@ -1,2 +1,2 @@
 # Hospital-Management-System
-.
+As we can see that health sector is a never ending area, and to manage huge data, one require a dedicated application, so that it would become easy to manage such large amount of data. So as to overcome this situation, the solution that first comes to our mind is creating a front end application like website, to reduce the complexity in managing the data, because to manage the data in the backend itself is very complicated, so the frontend provides us a platform where each and every functionality is saperate from each other. One can easily perform a single task at a time without any difficulty, also there is no need to remember any code to perform any task. The website would be created using django framework, Html, CSS.
